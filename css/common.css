@@ -1,0 +1,10 @@
+body
+{
+	font:400 12px/1.5 "Open Sans", Arial, Helvetica, sans-serif;
+	width: 100%;
+	background-color:#eaecf0;
+}
+.no-margin-padding{
+	padding:0;
+	margin: 0;
+}

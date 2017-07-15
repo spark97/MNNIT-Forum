@@ -1,0 +1,194 @@
+#maincontainer{
+	width: 1200px;
+	margin-top:50px;
+	width: 100%;
+}
+#threadcol{
+	width: 75%;
+}
+#notificationcol{
+	width: 25%;
+	margin-top: 42px;
+}
+#innernotificationcol{
+	background-color: white;
+	border: 1px solid #444C57;
+	padding: 0;
+}
+#notificationhead{
+	background-color: #444C57;
+	height: 40px;
+	padding: 10px;
+}
+#notificationhead h4{
+	color:#fff;
+	text-align: center;
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+}
+#notificationcontent{
+	height: 200px;
+}
+#latestthreadcol{
+	background-color: white;
+	border: 1px solid #1C735F;
+	padding: 0;
+}
+#threadhead{
+	background-color: #23947A;
+	height: 40px;
+	padding: 10px;
+	width: 100%;
+}
+#headtopic{
+	width: 50%;
+}
+#headnoofpost{
+	width: 25%;
+}
+#headdetail{
+	width: 25%;
+}
+#threadhead h4{
+	color:#fff;
+	text-align: center;
+	margin: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+}
+#latestthreadcontent{
+	min-height: 300px;
+}
+#singlethread{
+	padding: 5px;
+	min-height: 60px;
+}
+#threadtopic{
+	padding: 5px;
+	border-right:1px solid #ddd;
+	min-height: 60px;
+}
+#singletopichead a{
+	font-weight: 700;
+	color: #323a45;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+#postauthor{
+	padding: 5px;
+	border-right:1px solid #ddd;
+	min-height: 60px;
+}
+#inthread{
+	padding: 5px;
+	min-height: 60px;
+}
+@media all and (max-width: 1024px)
+{
+	#notificationcol{
+		width: 100%;
+		position: relative;
+		right: 0;
+	}
+	#threadcol{
+		margin-top: 2%;
+		width: 100%;
+	}
+	#threadtopicicon{
+		width: 10%;
+		float: left;
+	}
+	#singletopic{
+		width: 90%;
+		float: left;
+	}
+}
+
+@media all and (max-width: 765px)
+{
+	#headnoofpost{
+		display: none;
+	}
+	#postauthor{
+		display: none;
+	}
+	#headtopic{
+		text-align: right;
+		width: 60%;
+	} 
+	#headdetail{
+		width: 40%;
+		float: right;
+		margin-top: -22px;
+	}
+	#threadtopic{
+		width: 60%;
+		float: left;
+	}
+	#inthread{
+		width: 40%;
+		float: left;
+		
+	}
+	#threadtopicicon{
+		width: 10%;
+		float: left;
+	}
+	#singletopic{
+		width: 90%;
+		float: left;
+	}
+	#threadtopicicon{
+		display: none;
+	}
+
+}
+
+@media all and (max-width: 500px)
+{
+	#headnoofpost{
+		display: none;
+	}
+	#postauthor{
+		display: none;
+	}
+	#headtopic{
+		text-align: right;
+		width: 60%;
+	} 
+	#headdetail{
+		width: 40%;
+		float: right;
+		margin-top: -20px;
+	}
+	#threadtopic{
+		width: 55%;
+		float: left;
+	}
+	#inthread{
+		width: 45%;
+		float: left;
+	}
+	#threadtopicicon{
+		display: none;
+	}
+	#singletopic{
+		width: 90%;
+		float: left;
+	}
+	#headdetail h4{
+		font-size: 15px;
+	}
+	#inthread p{
+		font-size: 10px;	
+	}
+	#singlethread{
+		padding: 5px;
+		min-height: 100px;
+	}
+	#threadtopic{
+		padding: 5px;
+		border-right:1px solid #ddd;
+		min-height: 100px;
+	}
+}

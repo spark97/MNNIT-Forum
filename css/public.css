@@ -1,0 +1,178 @@
+#maincontainer{
+	width: 1200px;
+	margin-top:50px;
+	width: 100%;
+}
+
+#memberlistcontainer{
+	background: ;
+	padding: 10px;
+	padding-top: 5px;
+}
+#memberlistrow{
+	background: white;
+	border: 1px solid #444C57;
+}
+#memberlisthead{
+	background-color:#444C57; 
+}
+#memberlisthead p{
+	padding: 5px;
+	margin-bottom: 0;
+	color: #ddd;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 24px; 
+	text-align: center;
+}
+#memberlist{
+	height: 400px;
+	overflow-y:scroll; 
+}
+#members{
+	border-bottom: 1px solid #eee;
+}
+#members p {
+	margin-bottom: 0;
+	padding:5px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px; 
+	padding-left: 5%;
+}
+#members p .fa-user{
+	font-size: 15px;
+	padding-right: 5px;
+}
+#threadscontainer{
+	background: ;
+	padding:10px;
+	padding-top: 0;
+}
+#threadsrow{
+	
+}
+#individualpost{
+	border: 1px solid #1C735F;
+	margin-top: 5px;
+	background: white;
+}
+#posthead{
+	background: #23947A;
+}
+#posthead p{
+	margin-bottom: 0;
+	padding-left:5px; 
+	color: white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:21px;
+}
+#posttimehead{
+	text-align: right;
+	margin-right: 15px;
+}
+#individualpostcontent{
+	padding:5px; 
+}
+#individualpostpara{
+	/*border-right: 1px solid #1C735F;*/
+}
+#individualpostfooter{
+	padding-left: 5px;
+}
+/*#individualpostfooter .col-sm-2{
+	width: 10%;
+}*/
+#individualpostfooter p{
+	margin-bottom: 0;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #555;
+	font-size: 14px;
+}
+.fa-thumbs-o-up{
+	color: #1C735F;
+}
+.fa-thumbs-o-down{
+	color: #1C735F;
+}
+.fa-comment-o{
+	color: #1C735F;
+}
+#upvotebtn{
+	background: transparent;
+}
+#downvotebtn{
+	background: transparent;
+}
+#commentbtn{
+	background: transparent;
+}
+/*#individualpostcomment{
+	padding: 5px;
+}
+#individualpostcomment button{
+	border-radius: 0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:18px;
+	background: #444C57;
+	color: #fff;
+}*/
+.modal-header{
+	background: #444C57;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:28px;
+}
+.modal-header h4{
+	color: white;
+}
+.modal-header .close{
+	color: white;
+	font-size: 30px;
+}
+.modal-content{
+	border-radius: 0;
+}
+.modal-body{
+	padding: 0;
+}
+#commentscontainer{
+	background: white;
+	padding: 10px;
+	overflow-y:scroll; 
+	height: 400px;
+}
+#individualcommentcontainer{
+	margin-top: 2%;
+}
+#commentauthor{
+	background-color:#23947A;
+}
+#commentauthor p{
+	margin-bottom: 0;
+	padding:2px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 18px; 
+	color: white;
+	text-align: center;
+}
+#comments{
+	border: 1px solid #1C735F;
+	padding: 5px;
+}
+#commentinputcontainer{
+	/*background: #444C57;*/
+	background: white;
+	border-top: 1px solid #444C57;
+	padding: 10px;
+}
+#commentinput input{
+	width: 100%;
+	height: 44px;
+}
+#commentsubmit button{
+	width: 100%;
+	border-radius: 0;
+	background: #161e29;
+	/*color: #25B695;*/
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 21px; 
+}
